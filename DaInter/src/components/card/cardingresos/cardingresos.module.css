@@ -1,0 +1,38 @@
+.card {
+    width: 300px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background: #ffffff;
+  }
+  
+  .tittle {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .body {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+
+  

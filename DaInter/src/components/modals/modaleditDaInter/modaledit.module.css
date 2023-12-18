@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  height: 520px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.input {
+  font-size: 15px;
+  width: 75%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.input:focus {
+  border-color: #0060df;
+}
+
+.input-content{
+  margin-left: 20px;
+}
+
+.apellidos-container {
+  display: flex;
+  gap: 10px;
+}
+
+.apellidos-input {
+  font-size: 15px;
+  width: 75%;
+  padding: 4%;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  border: 1px solid #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  position: relative;
+}
+
+.apellidos-input:focus {
+  border-color: #0060df;
+}
+
+.apellidos-container{
+  margin-right: 25px;
+}
+
+.tittle {
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-guardar {
+  background: #5815c5;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  width: 130px;
+  height: 30px;
+  margin-left: 15%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-guardar:hover {
+  background: #773be6;
+}
+
+.button-guardar:active {
+  background: #4f0fa8;
+}
+
+.button-cancelar {
+  background: #ffffff;
+  border: solid 1px #5815c5;
+  border-radius: 10px;
+  color: #000000;
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 9%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease,
+  border-color 0.3s ease;
+}
+
+.button-cancelar:hover {
+  background: #f5f5f5;
+  color: #5815c5;
+  border-color: #5815c5;
+}
+
+.button-cancelar:active {
+  background: #e0e0e0;
+}
+

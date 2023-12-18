@@ -1,0 +1,238 @@
+.toast-container {
+  left: 40%;
+}
+
+@media (min-width: 1280px) {
+  .main-container {
+    width: auto;
+    padding-left: 4%;
+  }
+}
+
+.title-list {
+  font-family: Arial;
+  color: #5a27c5;
+  font-size: 26px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 0%;
+}
+
+.tittle {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 1%;
+  padding: 0%;
+}
+
+.div-container-busq {
+  width: 80%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.div-buscador {
+  display: flex;
+  align-items: center;
+}
+
+.buscador-container {
+  width: 40%;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: box-shadow 0.3s ease;
+}
+
+.button-regresar {
+  height: 40px;
+  margin-bottom: 15px;
+  width: 120px;
+  border-radius: 4px;
+  border: none;
+  background: #651ffb;
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-left: 5%;
+  font-size: large;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-regresar:hover {
+  background: #945dfc;
+}
+
+.button-regresar:active {
+  background: #4b18a2;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
+
+.name {
+  font-family: "Inconsolata", monospace;
+  font-size: medium;
+  margin-top: 10px;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 20px;
+  padding: 10px;
+  background: linear-gradient(to bottom, #fffbfb 50%, #ff46d9 50%);
+  background-size: 100% 200%;
+  transition: background-position 0.3s, color 0.3s, font-size 0.3s;
+  border: 2px solid #d4caca;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(212, 202, 202, 1);
+  background-position: 0 0;
+  width: 90%; 
+  overflow: auto;
+}
+
+.li:hover {
+  background-position: 0 100%;
+  color: #ffffff;
+  font-size: large;
+}
+
+.icon-top-edit {
+  width: 25px;
+  height: 25px;
+  stroke: #ffffff;
+  stroke-width: 10%;
+}
+
+.button-top-edit {
+  background: #2760cf;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 35px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.button-top-edit:hover {
+  background: #3697ff;
+}
+
+.button-top-edit:active {
+  background: #1e4e8c;
+}
+
+.li:hover .name {
+  font-size: large;
+}
+
+.li:hover .button-delete {
+  background-color: #2760cf;
+}
+
+.li:hover .button-delete:hover {
+  background-color: #3697ff; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 90px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 13px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background: #2760cf;
+  color: #ffffff;
+  font-family: Arial;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: #3697ff;
+}
+
+.button:active {
+  background: #1e4e8c;
+}
+
+.button-delete {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #fb46ff;
+  color: #ffffff;
+  font-family: Arial;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.button-delete:active {
+  background: #1e4e8c;
+}
+
+@media screen and (max-width: 800px) {
+
+  .button-regresar {
+    width: 180px;
+  }
+
+  .toast-container {
+    left: 20%;
+  }
+
+  .main-container {
+    width: auto;
+  }
+
+  .tittle {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+
+  .div-container-busq {
+    width: 100%;
+  }
+
+  .buscador-container {
+    width: 100%;
+  }
+
+  .button-regresar {
+    margin-left: 0;
+  }
+
+  .li {
+    margin: 10px;
+  }
+
+  .button-container {
+    justify-content: flex-start;
+  }
+}

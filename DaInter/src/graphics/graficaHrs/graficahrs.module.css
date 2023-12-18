@@ -1,0 +1,12 @@
+.tittle {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container {
+background: #ffffff;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

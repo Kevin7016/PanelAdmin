@@ -1,0 +1,400 @@
+.toast-container {
+  left: 40%;
+}
+
+@media (min-width: 1280px) {
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.navbar-dashboard {
+  background: linear-gradient(to bottom, #540be7, #6F0AEF 80%);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.p-nav {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #6F0AEF 80%, #540be7);
+  color: #ffffff;
+  width: 250px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column;
+  overflow-y: auto;
+  background: #f1f5f6;
+}
+
+.dacodes-icon {
+  fill: #ffffff;
+  width: 200px;
+}
+
+.divselect {
+  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 8%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  background: #ef54f2;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.selected-icon{
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 400px;
+  text-align: left;
+  background: #FB46FF;
+  color: #ffffff;
+  border: 2px solid #FB46FF;
+  padding: 15px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.selected-button{
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(120, 118, 118, 0.5);
+}
+
+.title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons-content{
+  padding-top: 35%;
+}
+
+.logout-button {
+  background-color: #FB46FF;
+  color: #ffffff;
+  border: 2px solid #FB46FF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #2ffaf3;
+  border: 2px solid #2ffaf3;
+}
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar-dashboard {
+  background: linear-gradient(to bottom, #540be7, #6F0AEF 80%);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.p-nav {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #6F0AEF 80%, #540be7);
+  color: #ffffff;
+  width: 160px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column;
+  overflow-y: auto;
+  background: #f1f5f6;
+}
+
+.dacodes-icon {
+  fill: #ffffff;
+  width: 160px;
+}
+
+.divselect {
+  padding-top: 7%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 16%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  background: #ef54f2;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.selected-icon{
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 160px;
+  text-align: left;
+  background: #FB46FF;
+  color: #ffffff;
+  border: 2px solid #FB46FF;
+  padding: 15px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.selected-button{
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(120, 118, 118, 0.5);
+}
+
+.title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons-content{
+  padding-top: 40%;
+}
+
+.logout-button {
+  background-color: #FB46FF;
+  color: #ffffff;
+  border: 2px solid #FB46FF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #2ffaf3;
+  border: 2px solid #2ffaf3;
+}
+}
+
+@media (max-width: 800px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .navbar-dashboard {
+    background: linear-gradient(to bottom, #540be7, #6F0AEF 80%);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px; 
+  }
+  
+  .p-nav {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 5px; 
+    cursor: pointer;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  
+  .sidebar {
+    background: linear-gradient(to bottom, #6F0AEF 80%, #540be7);
+    color: #ffffff;
+    width: 180px; 
+    padding: 10px; 
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background: #f1f5f6;
+  }
+  
+  .dacodes-icon {
+    fill: #ffffff;
+    width: 150px; 
+  }
+  
+  .divselect {
+    padding-top: 7%; 
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    border: none;
+    cursor: pointer;
+    padding-bottom: 15%; 
+  }
+  
+  .icon {
+    width: 18px; 
+    height: 18px;
+    fill: #ffffff;
+    background: #ef54f2;
+    transition: background-color 0.3s ease;
+    margin-right: 5px; 
+    border-radius: 3px;
+  }
+  
+  .selected-icon {
+    width: 18px; 
+    height: 18px; 
+    fill: #000000;
+    background: #ffffff;
+    border-radius: 3px;
+  }
+  
+  .button {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 90%; 
+    text-align: left;
+    background: #FB46FF;
+    color: #ffffff;
+    border: 2px solid #FB46FF;
+    padding: 8px 5px; 
+    border-radius: 3px; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .selected-button {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(120, 118, 118, 0.5);
+  }
+
+  .title {
+    font-family: Arial;
+    font-size: 18px;
+  }
+  
+  .buttons-content {
+    padding-top: 30%; 
+  }
+  
+  .logout-button {
+    background-color: #FB46FF;
+    color: #ffffff;
+    border: 2px solid #FB46FF;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #2ffaf3;
+    border: 2px solid #2ffaf3;
+  }
+  
+}

@@ -1,0 +1,260 @@
+.toast-container {
+  left: 40%;
+}
+
+@media (min-width: 1280px) {
+.register-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.tittle{
+  font-family: Arial;
+  font-size: 40px;
+  padding-left: 2%;
+  font-weight: bold;
+  margin: 0;  
+}
+
+.fixed{
+  margin-top: 20px;
+}
+
+.input {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #0060df;
+}
+
+.file-input-label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.submit-button {
+  margin-top: 30px;
+  background: #4B19DA;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  height: 35px;
+  width: 200px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 90px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease; 
+}
+
+.submit-button:hover {
+  background: #321744;
+}
+
+.submit-button:active {
+  background: #4E115F; 
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.invalid-button {
+  background-color: #d3d3d3; 
+  color: #808080; 
+  cursor: not-allowed;
+}
+
+.invalid-button:hover {
+  background-color: #d3d3d3; 
+}
+
+.invalid-button:active {
+  background-color: #d3d3d3; 
+}
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .register-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    width: 48%; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .tittle {
+    font-family: Arial;
+    font-size: 36px; 
+    padding-left: 2%;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .fixed {
+    margin-top: 20px;
+  }
+  
+  .input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 2px solid #0060df;
+  }
+  
+  .file-input-label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .submit-button {
+    margin-top: 30px;
+    background: #4B19DA;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    height: 40px; 
+    width: 200px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #321744;
+  }
+  
+  .submit-button:active {
+    background: #4E115F;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .invalid-button {
+    background-color: #d3d3d3;
+    color: #808080;
+    cursor: not-allowed;
+  }
+  
+  .invalid-button:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .invalid-button:active {
+    background-color: #d3d3d3;
+  }
+  
+
+}
+
+@media (max-width: 800px) {
+  .register-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  
+  .tittle {
+    font-family: Arial;
+    font-size: 30px; 
+    padding-left: 2%;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .fixed {
+    margin-top: 20px; 
+  }
+  
+  .input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 14px; 
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 2px solid #0060df;
+  }
+  
+  
+  .submit-button {
+    margin-top: 20px;
+    background: #4B19DA;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    width: 100%; 
+    font-family: Arial;
+    font-size: 18px; 
+    font-weight: bold;
+    margin-left: 0; 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #321744;
+  }
+  
+  .submit-button:active {
+    background: #4E115F;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .invalid-button {
+    background-color: #d3d3d3;
+    color: #808080;
+    cursor: not-allowed;
+  }
+  
+  .invalid-button:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .invalid-button:active {
+    background-color: #d3d3d3;
+  }
+  
+}

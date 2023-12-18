@@ -1,0 +1,40 @@
+.select-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .select { 
+    margin: 0; 
+    border:  1px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; 
+    background: transparent;
+  }
+
+  .select option {
+    color: #000000; 
+  }
+  
+  .label {
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #42098A;
+
+  }
+  
+  .select-error {
+    border:  2px solid #FF0000 !important;
+    color: #FF0000 !important;
+  }
+  
+  .label-error{
+    color: #FF0000;
+  }
+  
+  
+  
+  
+  
+  

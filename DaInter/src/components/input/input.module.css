@@ -1,0 +1,89 @@
+.label {
+  font-weight: 600;
+  margin-left: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #42098A;
+  font-size: 17px;
+}
+
+.input {
+  margin-top: 3%;
+}
+
+.input-error {
+  border: 2px solid #FF0000 !important;
+  color: #FF0000 !important;
+  margin-top: 3%;
+}
+
+.label-error {
+  color: #FF0000;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.custom-button:hover .file-input-container{
+  border: 2px solid #ee4b4b;
+}
+
+.input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 0;
+}
+
+.custom-button {
+  background-color: #FB46FF;
+  color: #ffffff;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #FB46FF;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  font-family: Arial;
+  font-size: 15px;
+  margin-left: 20px;
+  z-index: 1;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.custom-button:hover {
+  background-color: #f97df9; 
+  color: #fff;
+}
+
+.custom-button:active {
+  background-color: #d531af; 
+  border-color: #d531af;
+}
+
+
+.input[type="file"]:not(:focus) {
+  content: "Examinar";
+  margin-left: 10px;
+  font-size: 16px;
+  color: #000; 
+}
+
+.custom-span-after{
+  font-family: Arial;
+  margin-left: 10px;
+}

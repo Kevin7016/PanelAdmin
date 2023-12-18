@@ -1,0 +1,159 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #6732ff, #ae46ff);
+  animation: moveGradient 6s linear infinite;
+  background-size: 100% 200%;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 0%; 
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%; 
+  }
+}
+
+
+.register-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 600px;
+  font-family: Arial;
+  margin-bottom: 80px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.input {
+  width: 75%;
+  padding: 2%;
+  border-radius: 4%;
+  border: 1px solid #000000;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3d3939;
+  max-width: 80%;
+  position: relative;
+}
+
+.input:focus {
+  border: none;
+}
+
+.text {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6834fc, #9834c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.register-button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px;
+  font-size: 15px;
+  transition: background-color 0.3s ease; 
+}
+
+.register-button:hover {
+  background-color: #41c0dd;
+}
+
+.register-button:active {
+  background-color: #003366;
+}
+
+
+.register-button2 {
+  background-color: #ffffff;
+  color: #6732ff;
+  border: solid 2px #6732ff;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px;
+  font-size: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.register-button2:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.register-button2:active {
+  background-color: #003366; 
+  color: #fff; 
+}
+
+
+.icon{
+  fill: #ffffff;
+  margin-right: auto;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.valid-button {
+  background-color: #0056b3;
+}
+
+.invalid-button {
+  background-color: #6e93e3;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.button-content {
+  align-items: center;
+  display: flex;
+}
+
+.eye-button {
+  position: relative;
+  right: 8%;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #3a3535;
+}
+
+.toast-container {
+  left: 40%;
+}
+
+.select{
+  height: 35px;
+  width: 310px;
+  border-radius: 4%;
+}
+
+.div-select{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}

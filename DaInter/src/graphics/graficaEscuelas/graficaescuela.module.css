@@ -1,0 +1,50 @@
+@media (min-width: 1280px) {
+.tittle {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 410px;
+  width: 620px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+  .tittle {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .container {
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 410px;
+    width: 620px;
+  }
+}
+
+@media (max-width: 800px) {
+  .tittle {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .container {
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 300px;
+    width: 420px;
+  }
+}
